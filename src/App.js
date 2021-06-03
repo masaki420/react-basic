@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>環境構築成功</p>
       </header>
     </div>
   );
