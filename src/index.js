@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import "./index.css";
 
 class Human extends React.Component {
   constructor(props) {
@@ -21,14 +22,14 @@ class Human extends React.Component {
 
   render() {
     return (
-      <>
+      <div className={this.H2OState(this.state.temp)}>
       <h2>phase: {this.H2OState(this.state.temp)}, {this.state.temp}</h2>
 
       <button onClick={this.onPlusClick}>+</button>
       <button onClick={this.onPlus10Click}>+10</button>
       <button onClick={this.onMinusClick}>-</button>
       <button onClick={this.onMinus10Click}>-10</button>
-      </>
+      </div>
     );
   }
 
