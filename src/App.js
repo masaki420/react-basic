@@ -7,17 +7,17 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to Masaki's first react-app page.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://bifree222.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Home Page
         </a>
-        <p>環境構築成功</p>
+        <p>2021.6.4</p>
       </header>
     </div>
   );
